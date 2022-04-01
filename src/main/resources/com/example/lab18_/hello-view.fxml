@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<SplitPane dividerPositions="0.5" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" orientation="VERTICAL" prefHeight="400.0" prefWidth="290.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lab18_.HelloController">
+  <items>
+    <AnchorPane>
+         <children>
+            <TextArea fx:id="text" editable="false" prefHeight="362.0" prefWidth="290.0" />
+         </children></AnchorPane>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="58.0" prefWidth="288.0">
+         <children>
+            <TextField fx:id="message" layoutX="7.0" layoutY="2.0" prefHeight="25.0" prefWidth="219.0" />
+            <Button fx:id="button" layoutX="233.0" layoutY="2.0" mnemonicParsing="false" onAction="#buttonClick" prefHeight="25.0" prefWidth="51.0" text="Send" />
+         </children></AnchorPane>
+  </items>
+</SplitPane>
